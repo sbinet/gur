@@ -44,7 +44,7 @@ type Result struct {
 }
 
 func (r Result) String() string {
-	return fmt.Sprintf("%v/%v %v (%v) \n%v", "aur", r.Name, r.Version, r.NumVotes, r.Description)
+	return fmt.Sprintf("%v/%v %v (%v) \n -- %v", "aur", r.Name, r.Version, r.NumVotes, r.Description)
 }
 
 type Aur struct {
